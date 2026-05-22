@@ -1,0 +1,50 @@
+/* 202432014_Fachri Abdurrahman Shiddiq */
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; margin: 0; }
+header { background: #2c3e50; color: white; padding: 1rem; text-align: center; }
+nav {  display: flex; justify-content: center; gap: 12px; }
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    padding: 8px 14px;
+
+    border-radius: 3px;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+
+nav a.active { background: #3498db; }
+
+nav a:hover {
+    background: #3498db;
+}
+
+main { padding: 2rem; max-width: 800px; margin: auto; }
+
+.inventaris-table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background: white;
+
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.inventaris-table th,
+.inventaris-table td {
+    border: 1px solid #ddd;
+
+    padding: 14px;
+
+    text-align: left;
+}
+
+
+th { background-color: #3498db; color: white; }
+tr:nth-child(even) { background-color: #f2f2f2; }

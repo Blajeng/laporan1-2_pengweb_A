@@ -1,0 +1,16 @@
+/* 202432014_Fachri Abdurrahman Shiddiq */
+body { background-color: #f0f2f5; font-family: 'Verdana'; }
+
+header { background-color: #4f74b8; padding: 35px 0 15px; text-align: center; }
+header h1 { color: white; margin-bottom: 18px; font-size: 26px; }
+nav { display: flex; justify-content: center; gap: 25px; }
+nav a { text-decoration: none; color: #dfe8ff; font-size: 15px; }
+
+nav a.active { color: white; font-weight: bold; text-decoration: underline; }
+main { display: flex; justify-content: center; margin-top: 30px; }
+.reg-form { background: white; padding: 25px; border-radius: 10px; width: 100%; max-width: 600px; border-top: 5px solid #476EAE; }
+fieldset { border: none; }
+legend { font-size: 1.5em; color: #476EAE; margin-bottom: 20px; }
+.form-group { margin-bottom: 15px; }
+input[type="text"], select { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; }
+button { background: #476EAE; color: white; border: none; padding: 12px 20px; border-radius: 5px; cursor: pointer; width: 100%; }
